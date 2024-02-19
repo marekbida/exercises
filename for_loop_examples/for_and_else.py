@@ -5,5 +5,7 @@ for num in numbers: # Loop through each number in the list
     if num == search_for: # Check if the current number is the one we are looking for
         print("Found!")
         break
+    else:
+        print(f"Number is {num}, it does not match the criteria: {search_for}")
 else:  # Executed because no break occurs in the loop
     print("Not found!")
